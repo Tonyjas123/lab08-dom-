@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tarea: Lista de Tareas Interactiva</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 30px auto;
+        padding: 0 10px;
+      }
+      section {
+        border: 1px solid #ccc;
+        padding: 15px;
+        border-radius: 6px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+      }
+      li.completada span {
+        text-decoration: line-through;
+        color: #7f8c8d;
+      }
+      .error {
+        color: #c0392b;
+        font-weight: bold;
+        margin-top: 8px;
+      }
+      button {
+        cursor: pointer;
+      }
+      .btn-borrar {
+        background: #e74c3c;
+        color: white;
+        border: none;
+        padding: 4px 8px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h2>Gestor de Tareas Interactivo</h2>
+      <form id="formTarea">
+        <input
+          type="text"
+          id="inputTarea"
+          placeholder="Escribe una nueva tarea..."
+        />
+        <button type="submit">Agregar Tarea</button>
+      </form>
+      <p id="mensajeValidacion"></p>
+      <ul id="listaTareas"></ul>
+      <p>Total de tareas: <span id="contadorTareas">0</span></p>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
