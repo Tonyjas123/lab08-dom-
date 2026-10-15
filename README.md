@@ -3,7 +3,6 @@
 Bitacora de JavaScript interactivo: DOM, eventos y objetos
 
 - [Bitacora de JavaScript interactivo](notas/BITACORA.md)
-- [Ver la pagina en vivo](https://tonyjas123.github.io/lab08-dom-/)
-
+- [Ver la pagina en vivo](https://Tonyjas123.github.io/lab08-dom-/)
 - [Tarea: Mi componente interactivo](notas/TAREA.md)
-- [Ver la tarea en vivo](https://tonyjas123.github.io/lab08-dom-/tarea/)
+- [Ver la tarea en vivo](https://Tonyjas123.github.io/lab08-dom-/tarea/)
